@@ -2,7 +2,6 @@ name: PicX
 tags:
     - 工具
 title: 一款基于 GitHub API 开发的图床工具
-type: 工具
 description: 一款基于 GitHub API 开发的图床工具
 additionalProperties:
     key: picx

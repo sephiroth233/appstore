@@ -2,7 +2,6 @@ name: Port-Forward-Server
 tags:
     - 工具
 title: Go 语言开发的端口转发工具 (服务端)
-type: 工具
 description: Go 语言开发的端口转发工具 (服务端)
 additionalProperties:
     key: port-forward-server

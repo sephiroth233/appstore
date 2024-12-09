@@ -2,7 +2,6 @@ name: WireGuard-UI
 tags:
     - 工具
 title: Wireguard 网络界面
-type: 工具
 description: Wireguard 网络界面
 additionalProperties:
     key: wireguard-ui

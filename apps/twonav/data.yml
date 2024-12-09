@@ -2,13 +2,12 @@ name: TwoNav
 tags:
     - 建站
 title: 一款开源免费的书签（导航）管理程序
-type: 建站
 description: 一款开源免费的书签（导航）管理程序
 additionalProperties:
     key: twonav
     name: TwoNav
     tags:
-        - WebSite
+        - Website
     shortDescZh: 一款开源免费的书签（导航）管理程序
     shortDescEn: An open source free bookmark (navigation) management program
     type: website

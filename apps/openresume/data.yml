@@ -2,7 +2,6 @@ name: OpenResume
 tags:
     - 工具
 title: 一个功能强大的开源简历生成器和简历解析器
-type: 工具
 description: 一个功能强大的开源简历生成器和简历解析器
 additionalProperties:
     key: openresume

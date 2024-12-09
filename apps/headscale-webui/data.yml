@@ -2,7 +2,6 @@ name: Headscale-WebUI
 tags:
     - 工具
 title: 适用于小规模部署的简单 Headscale 网络用户界面
-type: 工具
 description: 适用于小规模部署的简单 Headscale 网络用户界面
 additionalProperties:
     key: headscale-webui

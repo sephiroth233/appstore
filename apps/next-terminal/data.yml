@@ -2,7 +2,6 @@ name: Next Terminal
 tags:
     - 工具
 title: 一个简单好用安全的开源交互审计系统，支持RDP、SSH、VNC、Telnet、Kubernetes协议
-type: 工具
 description: 一个简单好用安全的开源交互审计系统，支持RDP、SSH、VNC、Telnet、Kubernetes协议
 additionalProperties:
     key: next-terminal

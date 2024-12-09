@@ -2,7 +2,6 @@ name: ZeroTier-One
 tags:
     - 工具
 title: 多点虚拟化网络解决方案
-type: 工具
 description: 多点虚拟化网络解决方案
 additionalProperties:
     key: zerotier-one

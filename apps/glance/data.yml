@@ -7,7 +7,7 @@ additionalProperties:
     key: glance
     name: Glance
     tags:
-        - WebSite
+        - Website
     shortDescZh: 一个自托管仪表板
     shortDescEn: A self-hosted dashboard
     type: tool

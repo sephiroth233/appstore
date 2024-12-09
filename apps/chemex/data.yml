@@ -2,7 +2,6 @@ name: Chemex
 tags:
     - 工具
 title: 一个免费、开源、高效且漂亮的运维资产管理平台
-type: 工具
 description: 一个免费、开源、高效且漂亮的运维资产管理平台
 additionalProperties:
     key: chemex

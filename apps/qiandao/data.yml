@@ -2,7 +2,6 @@ name: QianDao
 tags:
     - 工具
 title: 一个 HTTP 请求定时任务自动执行框架
-type: 工具
 description: 一个 HTTP 请求定时任务自动执行框架
 additionalProperties:
     key: qiandao

@@ -2,7 +2,6 @@ name: KMS & WEB
 tags:
     - 工具
 title: KMS 服务端与 WEB
-type: 工具
 description: KMS 服务端与 WEB
 additionalProperties:
     key: kms-web

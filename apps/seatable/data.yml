@@ -2,7 +2,6 @@ name: SeaTable
 tags:
     - 工具
 title: 一款以智能表格为基础的新型数字化平台
-type: 工具
 description: 一款以智能表格为基础的新型数字化平台
 additionalProperties:
     key: seatable

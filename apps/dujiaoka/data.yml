@@ -7,7 +7,7 @@ additionalProperties:
     key: dujiaoka
     name: 独角数卡
     tags:
-        - WebSite
+        - Website
     shortDescZh: 开源站长自动化售货解决方案
     shortDescEn: Open-source automated sales solution for webmasters
     type: website

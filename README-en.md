@@ -67,14 +67,14 @@ The default installation path of `1Panel` is `/opt/`, which can be modified as n
 
 > GitHub Acceleration Methods
 >> - (Added to this repository) Self-built: https://github.com/hunshcn/gh-proxy
->> - https://mirror.ghproxy.com
+>> - https://ghp.ci
 
 #### 2.1.1 Getting Apps via Git Command
 
 In the `Shell Script` task type in the `1Panel` scheduled tasks, add and execute the following command, or run the following command in the terminal:
 
 ```shell
-git clone -b localApps https://mirror.ghproxy.com/https://github.com/okxlin/appstore /opt/1panel/resource/apps/local/appstore-localApps
+git clone -b localApps https://ghp.ci/https://github.com/okxlin/appstore /opt/1panel/resource/apps/local/appstore-localApps
 
 cp -rf /opt/1panel/resource/apps/local/appstore-localApps/apps/* /opt/1panel/resource/apps/local/
 
@@ -88,7 +88,7 @@ Then refresh the local applications in the app store.
 In the `Shell Script` task type in the `1Panel` scheduled tasks, add and execute the following command, or run the following command in the terminal:
 
 ```shell
-wget -P /opt/1panel/resource/apps/local https://mirror.ghproxy.com/https://github.com/okxlin/appstore/archive/refs/heads/localApps.zip
+wget -P /opt/1panel/resource/apps/local https://ghp.ci/https://github.com/okxlin/appstore/archive/refs/heads/localApps.zip
 
 unzip -o -d /opt/1panel/resource/apps/local/ /opt/1panel/resource/apps/local/localApps.zip
 

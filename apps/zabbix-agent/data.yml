@@ -2,7 +2,6 @@ name: Zabbix-Agent
 tags:
     - 工具
 title: 实时监控 IT 组件和服务(监控端)
-type: 工具
 description: 实时监控 IT 组件和服务(监控端)
 additionalProperties:
     key: zabbix-agent

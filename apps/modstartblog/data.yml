@@ -2,13 +2,12 @@ name: ModStartBlog
 tags:
     - 建站
 title: 开源个人博客系统
-type: 建站
 description: 开源个人博客系统
 additionalProperties:
     key: modstartblog
     name: ModStartBlog
     tags:
-        - WebSite
+        - Website
     shortDescZh: 开源博客系统
     shortDescEn: Open Source Blog System
     type: website

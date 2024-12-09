@@ -2,7 +2,6 @@ name: StackEdit
 tags:
     - 工具
 title: 浏览器里的全功能开源 Markdown 编辑器
-type: 工具
 description: 浏览器里的全功能开源 Markdown 编辑器
 additionalProperties:
     key: stackedit

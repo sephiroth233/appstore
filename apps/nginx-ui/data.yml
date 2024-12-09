@@ -2,7 +2,6 @@ name: Nginx UI
 tags:
     - Web 服务器
 title: Nginx 网络管理界面
-type: Web 服务器
 description: Nginx 网络管理界面
 additionalProperties:
     key: nginx-ui

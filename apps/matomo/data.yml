@@ -2,7 +2,6 @@ name: Matomo
 tags:
     - 工具
 title: 开源的网站分析应用程序
-type: 工具
 description: 开源的网站分析应用程序
 additionalProperties:
     key: matomo

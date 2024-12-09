@@ -2,7 +2,6 @@ name: Homepage
 tags:
     - 工具
 title: 一个现代的、完全静态的、快速的、安全的、完全代理的、高度可定制的应用程序仪表板
-type: 工具
 description: 一个现代的、完全静态的、快速的、安全的、完全代理的、高度可定制的应用程序仪表板
 additionalProperties:
     key: homepage

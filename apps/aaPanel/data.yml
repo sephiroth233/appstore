@@ -2,7 +2,6 @@ name: aaPanel
 tags:
     - 工具
 title: 宝塔面板国际版，开源的Linux面板
-type: 工具
 description: 宝塔面板国际版，开源的Linux面板
 additionalProperties:
     key: aaPanel

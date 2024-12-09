@@ -2,7 +2,6 @@ name: miniPaint
 tags:
     - 工具
 title: 在线图像编辑器，可让您使用HTML5技术创建，编辑图像
-type: 工具
 description: 在线图像编辑器，可让您使用HTML5技术创建，编辑图像
 additionalProperties:
     key: minipaint

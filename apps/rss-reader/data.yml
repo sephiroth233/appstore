@@ -2,7 +2,6 @@ name: RSS Reader
 tags:
     - 工具
 title: 一个极简的 RSS 在线浏览工具
-type: 工具
 description: 一个极简的 RSS 在线浏览工具
 additionalProperties:
     key: rss-reader

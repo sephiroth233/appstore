@@ -2,7 +2,6 @@ name: Firefox Browser
 tags:
     - 工具
 title: 一个免费的开源网络浏览器
-type: 工具
 description: 一个免费的开源网络浏览器
 additionalProperties:
     key: firefox-browser

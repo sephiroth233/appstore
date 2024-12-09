@@ -2,7 +2,6 @@ name: h5ai
 tags:
     - 工具
 title: 用于Apache httpd，lighttpd和nginx的HTTP Web服务器索引
-type: 工具
 description: 用于Apache httpd，lighttpd和nginx的HTTP Web服务器索引
 additionalProperties:
     key: h5ai

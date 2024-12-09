@@ -2,7 +2,6 @@ name: OpenSpeedTest
 tags:
     - 工具
 title: 免费且免费开源 HTML5 网络性能评估工具
-type: 工具
 description: 免费且免费开源 HTML5 网络性能评估工具
 additionalProperties:
     key: openspeedtest

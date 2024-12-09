@@ -2,7 +2,6 @@ name: Prometheus
 tags:
     - 工具
 title: 一个系统和服务监控系统
-type: 工具
 description: 一个系统和服务监控系统
 additionalProperties:
     key: prometheus

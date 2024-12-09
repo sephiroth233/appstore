@@ -7,7 +7,7 @@ additionalProperties:
     key: discourse
     name: Discourse
     tags:
-        - WebSite
+        - Website
     shortDescZh: 开源讨论平台
     shortDescEn: Open-source discussion platform
     type: website

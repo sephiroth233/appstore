@@ -2,7 +2,6 @@ name: JSON Hero
 tags:
     - 使阅读和理解 JSON 文件变得简单
 title: 使阅读和理解 JSON 文件变得简单
-type: 工具
 description: 使阅读和理解 JSON 文件变得简单
 additionalProperties:
     key: jsonhero

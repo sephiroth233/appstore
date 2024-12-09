@@ -7,7 +7,7 @@ additionalProperties:
     key: mediawiki
     name: MediaWiki
     tags:
-        - WebSite
+        - Website
     shortDescZh: 开源百科引擎
     shortDescEn: Open-source wiki engine
     type: tool

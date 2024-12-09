@@ -7,7 +7,7 @@ additionalProperties:
     key: linkstack
     name: LinkStack
     tags:
-        - WebSite
+        - Website
     shortDescZh: 高度可定制的链接共享平台，用户界面直观易用
     shortDescEn: A highly customizable link sharing platform with an intuitive, easy to use user interface
     type: website

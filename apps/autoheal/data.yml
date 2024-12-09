@@ -2,7 +2,6 @@ name: Docker Autoheal
 tags:
     - 工具
 title: 监视和重启不正常的 docker 容器
-type: 工具
 description: 监视和重启不正常的 docker 容器
 additionalProperties:
     key: autoheal

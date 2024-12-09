@@ -2,7 +2,6 @@ name: Bililive-go
 tags:
     - 工具
 title: 一个支持多种直播平台的直播录制工具
-type: 工具
 description: 一个支持多种直播平台的直播录制工具
 additionalProperties:
     key: bililive-go

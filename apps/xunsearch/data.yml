@@ -2,7 +2,6 @@ name: 迅搜 Xunsearch
 tags:
     - 工具
 title: 一个高性能、全功能的全文检索解决方案
-type: 工具
 description: 一个高性能、全功能的全文检索解决方案
 additionalProperties:
     key: xunsearch

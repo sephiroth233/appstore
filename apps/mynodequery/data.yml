@@ -2,7 +2,6 @@ name: MyNodeQuery
 tags:
     - 工具
 title: 一款简洁好用的探针
-type: 工具
 description: 一款简洁好用的探针
 additionalProperties:
     key: mynodequery

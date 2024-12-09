@@ -2,7 +2,6 @@ name: MyIP
 tags:
     - 工具
 title: 一个更好的 IP 工具箱
-type: 工具
 description: 一个更好的 IP 工具箱
 additionalProperties:
     key: myip

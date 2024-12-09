@@ -2,7 +2,6 @@ name: 今日热榜 DailyHot Web
 tags:
     - 工具
 title: 一个聚合了中文热门站点数据的项目(前端)
-type: 工具
 description: 一个聚合了中文热门站点数据的项目(前端)
 additionalProperties:
     key: dailyhot-web

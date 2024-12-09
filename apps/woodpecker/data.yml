@@ -2,7 +2,6 @@ name: Woodpecker CI
 tags:
     - CI/CD
 title: 具有极强可扩展性的简单 CI 引擎
-type: CI/CD
 description: 具有极强可扩展性的简单 CI 引擎
 additionalProperties:
     key: woodpecker

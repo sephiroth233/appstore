@@ -2,7 +2,6 @@ name: RSS-to-Telegram-Bot
 tags:
     - 工具
 title: 关心你的阅读体验的 Telegram RSS 机器人
-type: 工具
 description: 关心你的阅读体验的 Telegram RSS 机器人
 additionalProperties:
     key: rss-to-telegram-bot

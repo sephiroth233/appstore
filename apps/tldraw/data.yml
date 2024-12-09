@@ -2,7 +2,6 @@ name: tldraw
 tags:
     - 工具
 title: 一款协作式数字白板
-type: 工具
 description: 一款协作式数字白板
 additionalProperties:
     key: tldraw

@@ -2,13 +2,12 @@ name: van-nav
 tags:
     - 建站
 title: 一个轻量导航站，汇总你的所有服务
-type: 建站
 description: 一个轻量导航站，汇总你的所有服务
 additionalProperties:
     key: van-nav
     name: van-nav
     tags:
-        - WebSite
+        - Website
     shortDescZh: 一个轻量导航站，汇总你的所有服务
     shortDescEn: A lightweight navigation station that aggregates all your services
     type: website

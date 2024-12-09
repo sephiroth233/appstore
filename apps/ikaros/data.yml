@@ -7,7 +7,7 @@ additionalProperties:
     key: ikaros
     name: Ikaros
     tags:
-        - WebSite
+        - Website
     shortDescZh: 专注于 ACGMN 的内容管理系统 (CMS)
     shortDescEn: Dedicated to ACGMN's Content Management System (CMS)
     type: website

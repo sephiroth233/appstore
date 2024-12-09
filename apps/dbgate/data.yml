@@ -2,7 +2,6 @@ name: DbGate
 tags:
     - 开发工具
 title: 跨平台的数据库管理器
-type: 开发工具
 description: 跨平台的数据库管理器
 additionalProperties:
     key: dbgate

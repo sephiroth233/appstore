@@ -2,7 +2,6 @@ name: Joplin Server
 tags:
     - 工具
 title: 一个开源的记事本应用程序
-type: 工具
 description: 一个开源的记事本应用程序
 additionalProperties:
     key: joplin-server

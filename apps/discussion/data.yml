@@ -7,7 +7,7 @@ additionalProperties:
     key: discussion
     name: Discussion
     tags:
-        - WebSite
+        - Website
     shortDescZh: 极简论坛
     shortDescEn: Minimalist forum
     type: website

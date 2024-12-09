@@ -2,7 +2,6 @@ name: 小雅 Alist (xiaoya)
 tags:
     - 工具
 title: 基于 Alist 的网盘聚合站
-type: 工具
 description: 基于 Alist 的网盘聚合站
 additionalProperties:
     key: xiaoya

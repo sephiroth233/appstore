@@ -2,7 +2,6 @@ name: Tianji
 tags:
     - 工具
 title: Tianji 是一款开源的 all-in-one 数据洞察中心
-type: 工具
 description: Tianji 是一款开源的 all-in-one 数据洞察中心
 additionalProperties:
     key: tianji

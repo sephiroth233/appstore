@@ -2,7 +2,6 @@ name: Dockge
 tags:
     - 工具
 title: 一个精美的、易于使用的、反应式的自托管 docker compose.yaml 面向堆栈的管理器
-type: 工具
 description: 一个精美的、易于使用的、反应式的自托管 docker compose.yaml 面向堆栈的管理器
 additionalProperties:
     key: dockge

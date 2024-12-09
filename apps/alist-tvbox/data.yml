@@ -2,7 +2,6 @@ name: Alist-TVBox
 tags:
     - 工具
 title: AList 代理，支持 xiaoya 版 AList 界面管理
-type: 工具
 description: AList 代理，支持 xiaoya 版 AList 界面管理
 additionalProperties:
     key: alist-tvbox

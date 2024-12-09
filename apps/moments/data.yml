@@ -2,13 +2,12 @@ name: Moments
 tags:
     - 建站
 title: 一个 C# 开发的博客朋友圈平台
-type: 建站
 description: 一个 C# 开发的博客朋友圈平台
 additionalProperties:
     key: moments
     name: Moments
     tags:
-        - WebSite
+        - Website
     shortDescZh: 一个 C# 开发的博客朋友圈平台
     shortDescEn: A C#-developed blogosphere platform
     type: website

@@ -2,7 +2,6 @@ name: Streaming-Media-Server-Pro
 tags:
     - 工具
 title: 一个强大的 IPTV 源后端服务，具有视频缓冲区功能
-type: 工具
 description: 一个强大的 IPTV 源后端服务，具有视频缓冲区功能
 additionalProperties:
     key: streaming-media-server-pro

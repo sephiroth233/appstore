@@ -2,13 +2,12 @@ name: ModStartCMS
 tags:
     - 建站
 title: 开源企业建站系统
-type: 建站
 description: 开源企业建站系统
 additionalProperties:
     key: modstartcms
     name: ModStartCMS
     tags:
-        - WebSite
+        - Website
     shortDescZh: 开源企业建站系统
     shortDescEn: Open Source Corp Website Building System
     type: website

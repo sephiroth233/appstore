@@ -2,7 +2,6 @@ name: Headscale-DERP
 tags:
     - 工具
 title: Headscale 的中继服务
-type: 工具
 description: Headscale 的中继服务
 additionalProperties:
     key: headscale-derp

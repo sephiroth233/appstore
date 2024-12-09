@@ -2,7 +2,6 @@ name: Headscale
 tags:
     - 工具
 title: Tailscale 控制服务器的开源自托管实现
-type: 工具
 description: Tailscale 控制服务器的开源自托管实现
 additionalProperties:
     key: headscale

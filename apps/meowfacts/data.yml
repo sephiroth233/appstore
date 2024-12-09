@@ -2,7 +2,6 @@ name: meowfacts
 tags:
     - 工具
 title: 一个简单的 API，它返回一个 catfact
-type: 工具
 description: 一个简单的 API，它返回一个 catfact
 additionalProperties:
     key: meowfacts

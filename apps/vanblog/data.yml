@@ -7,7 +7,7 @@ additionalProperties:
   key: vanblog
   name: VanBlog
   tags:  
-    - WebSite
+    - Website
   shortDescZh: 一款简洁实用优雅的个人博客系统
   shortDescEn: A simple, practical and elegant personal blog system
   type: website

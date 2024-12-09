@@ -1,8 +1,4 @@
 <div align="center">
-<br>
-<img width="200" src="https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/assets/icon-dark.png" alt="Script Hub">
-<br>
-<br>
 <h1 align="center">Script Hub<h1>
 </div>
 
@@ -13,13 +9,6 @@ Advanced Script Converter for QX, Loon, Surge, Stash, Egern, LanceX and Shadowro
 重写 & 规则集转换
 </p>
 
-## 社群
-
-👏🏻 欢迎加入社群进行交流讨论
-
-👥 群组 [张佩服(群组)](https://t.me/zhangpeifu) & [折腾啥(群组)](https://t.me/zhetengsha_group)
-
-📢 频道 [张佩服(频道)](https://t.me/h5683577) & [折腾啥(频道)](https://t.me/zhetengsha)
 
 ## 简介
 
@@ -48,18 +37,3 @@ Advanced Script Converter for QX, Loon, Surge, Stash, Egern, LanceX and Shadowro
 ## 文档
 
 [安装体验请查看文档](https://github.com/Script-Hub-Org/Script-Hub/wiki)
-
-## 鸣谢
-Powered by [_@Chavy‘s_](https://github.com/chavyleung) [Env.js](https://github.com/chavyleung/scripts)  
-原脚本作者 @小白脸  
-脚本修改[_@chengkongyiban_](https://github.com/chengkongyiban)  
-大量借鉴[_@KOP-XIAO_](https://github.com/KOP-XIAO)佬的[resource-parser.js](https://github.com/KOP-XIAO/QuantumultX/raw/master/Scripts/resource-parser.js)  
-感谢[_@xream_](https://github.com/xream) 佬提供与 [_@keywos_](https://github.com/keywos) 修改 `本项目 Script Hub 网页前端`, [replace-header.js](https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-header.js)，[echo-response.js](https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/echo-response.js)，[script-converter.js](https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/script-converter.js)  
-感谢[_@mieqq_](https://github.com/mieqq) 佬提供的[replace-body.js](https://github.com/mieqq/mieqq/raw/master/replace-body.js), 本项目中已进行修改  
-感谢[_@Maasea_](https://github.com/Maasea) 佬的指导  
-项目 logo 感谢 [_@Toperlock_](https://github.com/Toperlock)  
-插件图标用的 [_@Keikinn_](https://github.com/Keikinn) 佬的 [StickerOnScreen](https://github.com/KeiKinn/StickerOnScreen)项目，以及 [_@Toperlock_](https://github.com/Toperlock) 佬的 [QX 图标库](https://github.com/Toperlock/Quantumult/tree/main/icon)项目，感谢
-
-## 开发
-
-`pnpm preview` html 内容的本地预览

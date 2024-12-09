@@ -2,7 +2,6 @@ name: FRP-Panel (Master)
 tags:
     - 工具
 title: 多节点 FRP WebUI (控制节点)
-type: 工具
 description: 多节点 FRP WebUI (控制节点)
 additionalProperties:
     key: frp-panel-master

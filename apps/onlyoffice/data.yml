@@ -2,7 +2,6 @@ name: ONLYOFFICE Docs
 tags:
     - 工具
 title: 一个免费的在线办公套件
-type: 工具
 description: 一个免费的在线办公套件
 additionalProperties:
     key: onlyoffice

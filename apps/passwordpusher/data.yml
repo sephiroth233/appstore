@@ -2,7 +2,6 @@ name: Password Pusher
 tags:
     - 工具
 title: 一个通过网络传递密码的开源应用程序
-type: 工具
 description: 一个通过网络传递密码的开源应用程序
 additionalProperties:
     key: passwordpusher

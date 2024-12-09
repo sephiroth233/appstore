@@ -2,7 +2,6 @@ name: Seafile
 tags:
     - 工具
 title: 具有隐私保护和团队合作功能的开源云存储系统
-type: 工具
 description: 具有隐私保护和团队合作功能的开源云存储系统
 additionalProperties:
     key: seafile

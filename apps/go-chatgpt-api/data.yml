@@ -2,7 +2,6 @@ name: go-chatgpt-api
 tags:
     - 工具
 title: 一个尝试绕过 Cloudflare 来使用 ChatGPT 接口的程序
-type: 工具
 description: 一个尝试绕过 Cloudflare 来使用 ChatGPT 接口的程序
 additionalProperties:
     key: go-chatgpt-api

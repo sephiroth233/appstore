@@ -2,7 +2,6 @@ name: WPS Office
 tags:
     - 工具
 title: 多功能免费办公套件
-type: 工具
 description: 多功能免费办公套件
 additionalProperties:
     key: wps-office

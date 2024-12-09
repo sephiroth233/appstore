@@ -2,7 +2,6 @@ name: 百度网盘
 tags:
     - 工具
 title: 百度网盘是百度推出的一项云存储服务
-type: 工具
 description: 百度网盘是百度推出的一项云存储服务
 additionalProperties:
     key: baidunetdisk

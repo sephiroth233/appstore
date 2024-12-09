@@ -7,7 +7,7 @@ additionalProperties:
     key: moments1
     name: Moments
     tags:
-        - WebSite
+        - Website
     shortDescZh: 极简朋友圈
     shortDescEn: Minimalist blogosphere platform
     type: website

@@ -2,7 +2,6 @@ name: HertzBeat
 tags:
     - 工具
 title: 一个易用友好的开源实时监控告警系统
-type: 工具
 description: 一个易用友好的开源实时监控告警系统
 additionalProperties:
     key: hertzbeat

@@ -2,7 +2,6 @@ name: RSSHub
 tags:
     - 工具
 title: 一个开源、简单易用、易于扩展的 RSS 生成器
-type: 工具
 description: 一个开源、简单易用、易于扩展的 RSS 生成器
 additionalProperties:
     key: rsshub

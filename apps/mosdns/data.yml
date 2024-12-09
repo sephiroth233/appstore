@@ -2,7 +2,6 @@ name: mosdns
 tags:
     - 工具
 title: 一个插件化的 DNS 转发/分流器
-type: 工具
 description: 一个插件化的 DNS 转发/分流器
 additionalProperties:
     key: mosdns

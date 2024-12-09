@@ -2,7 +2,6 @@ name: Remmina
 tags:
     - 工具
 title: 远程桌面客户端
-type: 工具
 description: 远程桌面客户端
 additionalProperties:
     key: remmina

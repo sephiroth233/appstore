@@ -2,7 +2,6 @@ name: Tale Book
 tags:
     - 工具
 title: 一个简洁但强大的私人书籍管理系统
-type: 工具
 description: 一个简洁但强大的私人书籍管理系统
 additionalProperties:
     key: talebook

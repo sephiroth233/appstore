@@ -7,7 +7,7 @@ additionalProperties:
     key: tinyfilemanager
     name: TinyFileManager
     tags:
-        - WebSite
+        - Website
     shortDescZh: 一个基于 PHP 的轻量级文件管理器
     shortDescEn: A lightweight file manager based on PHP
     type: website

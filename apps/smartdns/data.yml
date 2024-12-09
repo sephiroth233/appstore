@@ -2,7 +2,6 @@ name: SmartDNS
 tags:
     - 工具
 title: 一个运行在本地的 DNS 服务器
-type: 工具
 description: 一个运行在本地的 DNS 服务器
 additionalProperties:
     key: smartdns

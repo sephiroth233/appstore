@@ -2,7 +2,6 @@ name: FRP-Panel (Server/Client)
 tags:
     - 工具
 title: 多节点 FRP WebUI (服务端/客户端)
-type: 工具
 description: 多节点 FRP WebUI (服务端/客户端)
 additionalProperties:
     key: frp-panel

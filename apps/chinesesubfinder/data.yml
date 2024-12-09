@@ -2,7 +2,6 @@ name: ChineseSubFinder
 tags:
     - 工具
 title: 自动化中文字幕下载
-type: 工具
 description: 自动化中文字幕下载
 additionalProperties:
     key: chinesesubfinder

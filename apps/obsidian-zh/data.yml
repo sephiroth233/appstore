@@ -2,7 +2,6 @@ name: Obsidian (中文适配)
 tags:
     - 工具
 title: 一个使用Markdown语法的闭源笔记软件
-type: 工具
 description: 一个使用Markdown语法的闭源笔记软件
 additionalProperties:
     key: obsidian-zh

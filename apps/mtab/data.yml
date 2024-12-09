@@ -7,7 +7,7 @@ additionalProperties:
   key: mtab
   name: mTab
   tags:  
-    - WebSite
+    - Website
   shortDescZh: 书签导航程序
   shortDescEn: Bookmark navigator
   type: website

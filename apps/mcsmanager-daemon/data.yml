@@ -2,7 +2,6 @@ name: MCSManager Daemon
 tags:
     - 休闲游戏
 title: 支持大部分游戏服务端和控制台程序的管理面板(后端)
-type: 休闲游戏
 description: 支持大部分游戏服务端和控制台程序的管理面板(后端)
 additionalProperties:
     key: mcsmanager-daemon

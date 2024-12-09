@@ -2,7 +2,6 @@ name: qBittorrent
 tags:
     - 工具
 title: qBittorrent 是一个跨平台的开源 BitTorrent 客户端
-type: 工具
 description: qBittorrent 是一个跨平台的开源 BitTorrent 客户端
 additionalProperties:
     key: qBittorrent

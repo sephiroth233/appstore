@@ -2,7 +2,6 @@ name: EasyImage2.0
 tags:
     - 工具
 title: 简单图床 - 一款功能强大无数据库的图床 2.0版
-type: 工具
 description: 简单图床 - 一款功能强大无数据库的图床 2.0版
 additionalProperties:
     key: easyimage2

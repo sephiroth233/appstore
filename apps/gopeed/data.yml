@@ -2,7 +2,6 @@ name: Gopeed
 tags:
     - 工具
 title: 一款现代化的下载器
-type: 工具
 description: 一款现代化的下载器
 additionalProperties:
     key: gopeed

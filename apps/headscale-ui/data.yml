@@ -2,7 +2,6 @@ name: Headscale-UI
 tags:
     - 工具
 title: Headscale 与 Tailscale 兼容的协调服务器的 Web 前端
-type: 工具
 description: Headscale 与 Tailscale 兼容的协调服务器的 Web 前端
 additionalProperties:
     key: headscale-ui

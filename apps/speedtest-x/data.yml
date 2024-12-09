@@ -2,7 +2,6 @@ name: Speedtest-X
 tags:
     - 工具
 title: 自托管的速度测试应用程序，提供出色的测试结果数据表
-type: 工具
 description: 自托管的速度测试应用程序，提供出色的测试结果数据表
 additionalProperties:
     key: speedtest-x

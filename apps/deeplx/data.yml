@@ -2,7 +2,6 @@ name: DeepLX
 tags:
     - 工具
 title: DeepL 免费 API（无需 TOKEN）
-type: 工具
 description: DeepL 免费 API（无需 TOKEN）
 additionalProperties:
     key: deeplx

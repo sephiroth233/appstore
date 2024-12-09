@@ -2,7 +2,6 @@ name: Aria2-Pro
 tags:
     - 工具
 title: 更好用的 Aria2 Docker 容器镜像
-type: 工具
 description: 更好用的 Aria2 Docker 容器镜像
 additionalProperties:
     key: aria2-pro

@@ -2,7 +2,6 @@ name: Trilium Notes
 tags:
     - 工具
 title: 一个层次化的笔记应用程序，专注于建立大型个人知识库
-type: 工具
 description: 一个层次化的笔记应用程序，专注于建立大型个人知识库
 additionalProperties:
     key: trilium

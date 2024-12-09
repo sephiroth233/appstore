@@ -2,7 +2,6 @@ name: linkding
 tags:
     - 工具
 title: 一个书签管理器，您可以自己托管
-type: 工具
 description: 一个书签管理器，您可以自己托管
 additionalProperties:
     key: linkding

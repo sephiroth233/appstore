@@ -2,7 +2,6 @@ name: Synapse-admin
 tags:
     - 工具
 title: Synapse 管理界面
-type: 工具
 description: Synapse 管理界面
 additionalProperties:
     key: synapse-admin

@@ -7,7 +7,7 @@ additionalProperties:
     key: minichat
     name: Minichat
     tags:
-        - WebSite
+        - Website
     shortDescZh: 极简聊天应用
     shortDescEn: Minimalist chat application
     type: website

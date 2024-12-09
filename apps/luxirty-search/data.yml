@@ -7,7 +7,7 @@ additionalProperties:
     key: luxirty-search
     name: Luxirty Search
     tags:
-        - WebSite
+        - Website
     shortDescZh: 一个搜索引擎，基于 Google
     shortDescEn: A search engine, based on Google
     type: website

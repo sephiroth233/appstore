@@ -2,7 +2,6 @@ name: Simple mind map
 tags:
     - 工具
 title: 一个还算强大的 Web 思维导图
-type: 工具
 description: 一个还算强大的 Web 思维导图
 additionalProperties:
     key: mind-map

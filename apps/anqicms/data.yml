@@ -7,7 +7,7 @@ additionalProperties:
     key: anqicms
     name: AnQiCMS
     tags:
-        - WebSite
+        - Website
     shortDescZh: 专注高安全性、多站点、多语言支持的内容管理系统
     shortDescEn: Focused on high security, multi-site, and multilingual support
     type: website

@@ -2,7 +2,6 @@ name: YOURLS
 tags:
     - 工具
 title: PHP驱动的标准自托管URL缩短器
-type: 工具
 description: PHP驱动的标准自托管URL缩短器
 additionalProperties:
     key: yourls

@@ -2,7 +2,6 @@ name: DashMachine
 tags:
     - 工具
 title: 一个具有有趣功能的 Web 应用程序书签仪表板
-type: 工具
 description: 一个具有有趣功能的 Web 应用程序书签仪表板
 additionalProperties:
     key: dashmachine

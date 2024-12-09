@@ -7,7 +7,7 @@ additionalProperties:
     key: sscms
     name: SSCMS 内容管理系统
     tags:
-        - WebSite
+        - Website
     shortDescZh: 开源免费、企业级、可商用的CMS内容管理系统
     shortDescEn: Open source free, enterprise-class, commercially available CMS content management system
     type: website

@@ -2,7 +2,6 @@ name: 115网盘
 tags:
     - 工具
 title: 115网盘是115科技推出的云存储服务
-type: 工具
 description: 115网盘是115科技推出的云存储服务
 additionalProperties:
     key: 115pc

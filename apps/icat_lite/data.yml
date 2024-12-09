@@ -7,7 +7,7 @@ additionalProperties:
     key: icat_lite
     name: icat_lite
     tags:
-        - WebSite
+        - Website
     shortDescZh: 喵空间社区程序 Lite 版
     shortDescEn: A mini bbs/forum/talk communicaty program
     type: website

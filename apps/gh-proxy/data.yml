@@ -2,7 +2,6 @@ name: gh-proxy
 tags:
     - 工具
 title: GitHub release、archive 以及项目文件的加速项目
-type: 工具
 description: GitHub release、archive 以及项目文件的加速项目
 additionalProperties:
     key: gh-proxy

@@ -2,7 +2,6 @@ name: Cloudreve
 tags:
     - 工具
 title: 支持多家云存储的云盘系统
-type: 工具
 description: 支持多家云存储的云盘系统
 additionalProperties:
     key: cloudreve

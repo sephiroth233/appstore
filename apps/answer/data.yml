@@ -2,13 +2,12 @@ name: Answer
 tags:
     - 建站
 title: 一款适合任何团队的问答平台软件
-type: 建站
 description: 一款适合任何团队的问答平台软件
 additionalProperties:
     key: answer
     name: Answer
     tags:
-        - WebSite
+        - Website
     shortDescZh: 一款适合任何团队的问答平台软件
     shortDescEn: A Q&A platform software for teams at any scales
     type: website
