@@ -1,0 +1,19 @@
+name: neat-chat
+tags:
+  - AI / 大模型
+title: 一键免费部署你的跨平台私人 ChatGPT 应用
+description: 一键免费部署你的跨平台私人 ChatGPT 应用
+additionalProperties:
+    key: neat-chat
+    name: neat-chat
+    tags:
+      - AI
+    shortDescZh: NeatChat是NextChat的去广告版本，使用NextChat的UI，并移除了广告。 更改了配色，去除了多语言支持，只保留中文和英文，只为精简。
+    shortDescEn: NeatChat是NextChat的去广告版本，使用NextChat的UI，并移除了广告。 更改了配色，去除了多语言支持，只保留中文和英文，只为精简。
+    type: tool
+    crossVersionUpdate: true
+    limit: 0
+    recommend: 0
+    website: https://github.com/tianzhentech/NeatChat
+    github: https://github.com/tianzhentech/NeatChat
+    document: https://raw.githubusercontent.com/tianzhentech/NeatChat/refs/heads/main/README.md
