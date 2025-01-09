@@ -28,9 +28,9 @@ additionalProperties:
       labelEn: WebDAV Username
       labelZh: WebDAV 用户名
       random: true
-      required: true  
-      rule: paramCommon  
-      type: text 
+      required: true
+      rule: paramCommon
+      type: text
     - default: "password"
       edit: true
       envKey: WEBDAV_AUTH_PASSWORD

@@ -1,19 +1,19 @@
 name: gh-proxy
 tags:
-    - 工具
+  - 工具
 title: GitHub release、archive 以及项目文件的加速项目
 description: GitHub release、archive 以及项目文件的加速项目
 additionalProperties:
-    key: gh-proxy
-    name: gh-proxy
-    tags:
-        - Tool
-    shortDescZh: GitHub release、archive 以及项目文件的加速项目
-    shortDescEn: Acceleration project for GitHub releases, archives, and project files
-    type: tool
-    crossVersionUpdate: true
-    limit: 0
-    recommend: 0
-    website: https://github.com/hunshcn/gh-proxy
-    github: https://github.com/hunshcn/gh-proxy
-    document: https://github.com/hunshcn/gh-proxy
+  key: gh-proxy
+  name: gh-proxy
+  tags:
+    - Tool
+  shortDescZh: GitHub release、archive 以及项目文件的加速项目
+  shortDescEn: Acceleration project for GitHub releases, archives, and project files
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://github.com/hunshcn/gh-proxy
+  github: https://github.com/hunshcn/gh-proxy
+  document: https://github.com/hunshcn/gh-proxy

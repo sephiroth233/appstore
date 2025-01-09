@@ -1,163 +1,163 @@
 additionalProperties:
-    formFields:
-        - child:
-            default: ""
-            envKey: PANEL_DB_HOST
-            labelEn: Database Service
-            labelZh: 数据库服务
-            required: true
-            type: service
-          default: mysql
-          envKey: AIS_PLATFORM
-          labelEn: Database Service
-          labelZh: 数据库服务
-          params:
-            - envKey: AIS_DB_PORT
-              key: mysql
-              type: param
-              value: "3306"
-            - envKey: AIS_DB_PORT
-              key: postgresql
-              type: param
-              value: "5432"
-          required: true
-          type: apps
-          values:
-            - label: MySQL
-              value: mysql
-        - default: ais-ninja
-          envKey: PANEL_DB_NAME
-          labelEn: Database
-          labelZh: 数据库名
-          random: true
-          required: true
-          rule: paramCommon
-          type: text
-        - default: ais-ninja
-          envKey: PANEL_DB_USER
-          labelEn: User
-          labelZh: 数据库用户
-          random: true
-          required: true
-          rule: paramCommon
-          type: text
-        - default: ais-ninja
-          envKey: PANEL_DB_USER_PASSWORD
-          labelEn: Password
-          labelZh: 数据库用户密码
-          random: true
-          required: true
-          rule: paramComplexity
-          type: password
-        - default: ""
-          edit: true
-          envKey: REDIS_HOST
-          key: redis
-          labelEn: Redis Service
-          labelZh: Redis服务
-          required: true
-          type: service
-        - default: "6379"
-          edit: true
-          envKey: REDIS_PORT
-          labelEn: Redis Service Port
-          labelZh: Redis服务端口
-          required: true
-          rule: paramPort
-          type: number
-        - default: ""
-          edit: true
-          envKey: REDIS_PASS
-          labelEn: Redis Service Password
-          labelZh: Redis服务密码
-          required: true
-          rule: paramCommon
-          type: password
-        - default: 40043
-          edit: true
-          envKey: PANEL_APP_PORT_HTTP
-          labelEn: Port
-          labelZh: 端口
-          required: true
-          rule: paramPort
-          type: number
-        - default: ""
-          edit: true
-          envKey: SMTP_HOST
-          labelEn: SMTP HOST
-          labelZh: SMTP 主机
-          required: false
-          rule: paramExtUrl
-          type: text
-        - default: "587"
-          edit: true
-          envKey: SMTP_PORT
-          labelEn: SMTP Port
-          labelZh: SMTP 端口
-          required: false
-          rule: paramPort
-          type: number
-        - default: ""
-          edit: true
-          envKey: EMAIL_SENDER
-          labelEn: Email service sender email address
-          labelZh: 邮箱服务发送方邮箱地址
-          required: false
-          type: text
-        - default: ""
-          edit: true
-          envKey: SMTP_USER
-          labelEn: Email service user name
-          labelZh: 邮箱服务用户名
-          required: false
-          type: text
-        - default: ""
-          edit: true
-          envKey: SMTP_PASSWORD
-          labelEn: Email service password
-          labelZh: 邮箱服务密码
-          required: false
-          rule: paramCommon
-          type: password
-        - default: ""
-          edit: true
-          envKey: GOOGLE_CLIENT_ID
-          labelEn: Google login client_id
-          labelZh: 谷歌登录的client_id
-          required: false
-          type: text
-        - default: ""
-          edit: true
-          envKey: ALI_ACCESS_ID
-          labelEn: Alibaba Cloud accessKey ID
-          labelZh: 阿里云accessKey ID
-          required: false
-          type: text
-        - default: ""
-          edit: true
-          envKey: ALI_ACCESS_SECRET
-          labelEn: Alibaba Cloud accessKeySecret
-          labelZh: 阿里云 accessKeySecret
-          required: false
-          type: text
-        - default: ""
-          edit: true
-          envKey: ALI_SMS_PERMIT
-          labelEn: Enable mobile sign-in registration (true or false)
-          labelZh: 启用手机登录注册(true or false)
-          required: false
-          type: text
-        - default: ""
-          edit: true
-          envKey: ALI_SMS_SIGN
-          labelEn: Alibaba Cloud SMS verification code service signature
-          labelZh: 阿里云短信验证码服务签名
-          required: false
-          type: text
-        - default: ""
-          edit: true
-          envKey: ALI_SMS_TEMPLATE
-          labelEn: Alibaba Cloud verification code SMS template, which must include {code}
-          labelZh: 阿里云验证码短信模板，需要包含 {code}
-          required: false
-          type: text
+  formFields:
+    - child:
+        default: ""
+        envKey: PANEL_DB_HOST
+        labelEn: Database Service
+        labelZh: 数据库服务
+        required: true
+        type: service
+      default: mysql
+      envKey: AIS_PLATFORM
+      labelEn: Database Service
+      labelZh: 数据库服务
+      params:
+        - envKey: AIS_DB_PORT
+          key: mysql
+          type: param
+          value: "3306"
+        - envKey: AIS_DB_PORT
+          key: postgresql
+          type: param
+          value: "5432"
+      required: true
+      type: apps
+      values:
+        - label: MySQL
+          value: mysql
+    - default: ais-ninja
+      envKey: PANEL_DB_NAME
+      labelEn: Database
+      labelZh: 数据库名
+      random: true
+      required: true
+      rule: paramCommon
+      type: text
+    - default: ais-ninja
+      envKey: PANEL_DB_USER
+      labelEn: User
+      labelZh: 数据库用户
+      random: true
+      required: true
+      rule: paramCommon
+      type: text
+    - default: ais-ninja
+      envKey: PANEL_DB_USER_PASSWORD
+      labelEn: Password
+      labelZh: 数据库用户密码
+      random: true
+      required: true
+      rule: paramComplexity
+      type: password
+    - default: ""
+      edit: true
+      envKey: REDIS_HOST
+      key: redis
+      labelEn: Redis Service
+      labelZh: Redis服务
+      required: true
+      type: service
+    - default: "6379"
+      edit: true
+      envKey: REDIS_PORT
+      labelEn: Redis Service Port
+      labelZh: Redis服务端口
+      required: true
+      rule: paramPort
+      type: number
+    - default: ""
+      edit: true
+      envKey: REDIS_PASS
+      labelEn: Redis Service Password
+      labelZh: Redis服务密码
+      required: true
+      rule: paramCommon
+      type: password
+    - default: 40043
+      edit: true
+      envKey: PANEL_APP_PORT_HTTP
+      labelEn: Port
+      labelZh: 端口
+      required: true
+      rule: paramPort
+      type: number
+    - default: ""
+      edit: true
+      envKey: SMTP_HOST
+      labelEn: SMTP HOST
+      labelZh: SMTP 主机
+      required: false
+      rule: paramExtUrl
+      type: text
+    - default: "587"
+      edit: true
+      envKey: SMTP_PORT
+      labelEn: SMTP Port
+      labelZh: SMTP 端口
+      required: false
+      rule: paramPort
+      type: number
+    - default: ""
+      edit: true
+      envKey: EMAIL_SENDER
+      labelEn: Email service sender email address
+      labelZh: 邮箱服务发送方邮箱地址
+      required: false
+      type: text
+    - default: ""
+      edit: true
+      envKey: SMTP_USER
+      labelEn: Email service user name
+      labelZh: 邮箱服务用户名
+      required: false
+      type: text
+    - default: ""
+      edit: true
+      envKey: SMTP_PASSWORD
+      labelEn: Email service password
+      labelZh: 邮箱服务密码
+      required: false
+      rule: paramCommon
+      type: password
+    - default: ""
+      edit: true
+      envKey: GOOGLE_CLIENT_ID
+      labelEn: Google login client_id
+      labelZh: 谷歌登录的client_id
+      required: false
+      type: text
+    - default: ""
+      edit: true
+      envKey: ALI_ACCESS_ID
+      labelEn: Alibaba Cloud accessKey ID
+      labelZh: 阿里云accessKey ID
+      required: false
+      type: text
+    - default: ""
+      edit: true
+      envKey: ALI_ACCESS_SECRET
+      labelEn: Alibaba Cloud accessKeySecret
+      labelZh: 阿里云 accessKeySecret
+      required: false
+      type: text
+    - default: ""
+      edit: true
+      envKey: ALI_SMS_PERMIT
+      labelEn: Enable mobile sign-in registration (true or false)
+      labelZh: 启用手机登录注册(true or false)
+      required: false
+      type: text
+    - default: ""
+      edit: true
+      envKey: ALI_SMS_SIGN
+      labelEn: Alibaba Cloud SMS verification code service signature
+      labelZh: 阿里云短信验证码服务签名
+      required: false
+      type: text
+    - default: ""
+      edit: true
+      envKey: ALI_SMS_TEMPLATE
+      labelEn: Alibaba Cloud verification code SMS template, which must include {code}
+      labelZh: 阿里云验证码短信模板，需要包含 {code}
+      required: false
+      type: text

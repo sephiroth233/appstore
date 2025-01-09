@@ -14,7 +14,7 @@ additionalProperties:
       labelEn: Base URL
       labelZh: 基本 URL
       required: true
-      rule: paramExtUrl  
+      rule: paramExtUrl
       type: text
     - default: "40326"
       edit: true
@@ -30,5 +30,5 @@ additionalProperties:
       labelEn: Beta Base URL
       labelZh: Beta 基本 URL
       required: true
-      rule: paramExtUrl  
+      rule: paramExtUrl
       type: text

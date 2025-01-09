@@ -64,7 +64,7 @@ additionalProperties:
       envKey: MONGO_DB
       labelEn: Database Name
       labelZh: 数据库名
-      random: true 
+      random: true
       required: true
       rule: paramCommon
       type: text

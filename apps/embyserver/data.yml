@@ -1,19 +1,19 @@
 name: Emby Server
 tags:
-    - 多媒体
+  - 多媒体
 title: 一个免费的个人媒体服务器
 description: 一个免费的个人媒体服务器
 additionalProperties:
-    key: embyserver
-    name: Emby Server
-    tags:
-        - Media
-    shortDescZh: 一个免费的个人媒体服务器
-    shortDescEn: A free personal media server
-    type: tool
-    crossVersionUpdate: true
-    limit: 0
-    recommend: 0
-    website: https://emby.media/
-    github: https://github.com/MediaBrowser/Emby
-    document: https://emby.media/support/articles/Home.html
+  key: embyserver
+  name: Emby Server
+  tags:
+    - Media
+  shortDescZh: 一个免费的个人媒体服务器
+  shortDescEn: A free personal media server
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://emby.media/
+  github: https://github.com/MediaBrowser/Emby
+  document: https://emby.media/support/articles/Home.html

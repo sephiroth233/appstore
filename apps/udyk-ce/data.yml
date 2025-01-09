@@ -7,7 +7,7 @@ additionalProperties:
   shortDescEn: An open-source online marketing and customer acquisition system tailored for the real estate industry.
   type: website
   crossVersionUpdate: false
-  limit:  1
+  limit: 1
   website: https://www.youdeyunke.com
   github: https://github.com/youdeyunke/app
-  document:  https://youdeyunke.yuque.com/r/organizations/homepage
+  document: https://youdeyunke.yuque.com/r/organizations/homepage

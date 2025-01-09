@@ -52,4 +52,3 @@ additionalProperties:
       labelZh: 用户组 ID
       required: true
       type: number
-

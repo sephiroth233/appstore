@@ -37,4 +37,3 @@ additionalProperties:
       required: true
       rule: paramComplexity
       type: password
-

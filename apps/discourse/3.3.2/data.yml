@@ -150,9 +150,9 @@ additionalProperties:
       envKey: DISCOURSE_PASSWORD
       labelEn: Password
       labelZh: 密码
-      random: true  
-      required: true  
-      rule: paramComplexity  
+      random: true
+      required: true
+      rule: paramComplexity
       type: password
     - default: "admin@localhost.com"
       edit: true
@@ -252,7 +252,7 @@ additionalProperties:
       labelEn: Database Port Number
       labelZh: 数据库端口号
       required: true
-      rule: paramPort 
+      rule: paramPort
       type: number
     - default: "bitnami_discourse"
       envKey: PANEL_DB_NAME

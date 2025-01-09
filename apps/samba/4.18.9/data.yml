@@ -86,4 +86,3 @@ additionalProperties:
       labelZh: 共享 3 (编辑去除compose.yml里的注释生效)
       required: false
       type: text
-
