@@ -1,0 +1,22 @@
+services:
+  new-api:
+    image: calciumion/new-api:latest
+    container_name: ${CONTAINER_NAME}
+    restart: always
+    ports:
+      - ${PANEL_APP_PORT_HTTP}:3000
+    command: --log-dir /app/logs
+    volumes:
+      - ${DATA_PATH}:/data
+      - ${DATA_PATH}/logs:/app/logs
+    environment:
+      - TZ=${TZ}
+    env_file:
+      - ${ENV_FILE}   
+    labels:
+      createdBy: "Apps"
+    networks:
+      - 1panel-network  
+networks:
+  1panel-network:
+    external: true

@@ -1,0 +1,19 @@
+name: OpenList
+tags:
+  - 工具
+title: 一个支持多存储的文件列表程序
+description: 一个支持多存储的文件列表程序，使用 Gin 和 SolidJS，基于 AList 项目 fork 开发
+additionalProperties:
+  key: openlist
+  name: OpenList
+  tags:
+    - Tool
+  shortDescZh: 一个支持多存储的文件列表程序，使用 Gin 和 SolidJS，基于 AList 项目 fork 开发
+  shortDescEn: A file list program that supports multiple storage
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://github.com/OpenListTeam
+  github: https://github.com/OpenListTeam
+  document: https://docs.oplist.org/zh/

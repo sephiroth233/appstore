@@ -1,0 +1,18 @@
+services:
+  moontv:
+    image: ghcr.io/moontechlab/lunatv:latest
+    container_name: ${CONTAINER_NAME}
+    restart: always
+    ports:
+      - "${PANEL_APP_PORT_HTTP}:3000"
+    volumes:  
+      - ${DATA_PATH}:/data  
+    env_file:
+      - ${ENV_FILE}      
+    labels:  
+      createdBy: "Apps"
+    networks:
+      - 1panel-network
+networks:
+  1panel-network:
+    external: true

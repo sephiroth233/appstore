@@ -1,0 +1,21 @@
+services:
+  alist:
+    container_name: ${CONTAINER_NAME}
+    restart: always
+    networks:
+      - 1panel-network
+    ports:
+      - "${PANEL_APP_PORT_HTTP}:5244"
+    volumes:
+      - "${DATA_PATH}:/opt/openlist/data"
+    user: '0:0' 
+    environment:
+      - UMASK=022
+    image: openlistteam/openlist:latest
+    labels:  
+      createdBy: "Apps"
+
+networks:  
+  1panel-network:  
+    external: true
+
