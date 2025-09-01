@@ -1,6 +1,6 @@
 name: new-api
 tags:
-    - AI / 大模型
+    - AI
 title: OpenAI 接口管理 & 分发系统
 description: OpenAI 接口管理 & 分发系统
 additionalProperties:

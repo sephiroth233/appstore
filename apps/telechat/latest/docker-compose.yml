@@ -1,0 +1,18 @@
+services:
+  telechat:
+    image: yym68686/chatgpt:latest
+    container_name: ${CONTAINER_NAME}
+    restart: always
+    ports:
+      - ${PANEL_APP_PORT_HTTP}:8080
+    volumes:
+      - ${DATA_PATH}/user_configs:/home/user_configs
+    env_file:
+      - ${ENV_FILE}   
+    labels:
+      createdBy: "Apps"
+    networks:
+      - 1panel-network  
+networks:
+  1panel-network:
+    external: true
