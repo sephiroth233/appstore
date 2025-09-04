@@ -1,0 +1,19 @@
+name: veloera
+tags:
+    - AI
+title: OpenAI 接口管理 & 分发系统
+description: OpenAI 接口管理 & 分发系统
+additionalProperties:
+  key: veloera
+  name: veloera
+  tags:
+    - AI
+  shortDescZh: 原汁原味的 New API 体验, 对界面无大改动, 遵循 GPL 3.0 协议, 无商用限制, 承诺不变质.
+  shortDescEn: Access all LLM through the standard OpenAI API format, easy to deploy & use
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://github.com/Veloera/Veloera
+  github: https://github.com/Veloera/Veloera
+  document: https://github.com/Veloera/Veloera/blob/main/README.md

@@ -1,0 +1,31 @@
+additionalProperties:
+  formFields:
+  - default: 3001
+    edit: true
+    envKey: PANEL_APP_PORT_HTTP
+    labelEn: Port
+    labelZh: 端口
+    required: true
+    rule: paramPort
+    type: number
+  - default: "./.env.sample"
+    edit: true
+    envKey: ENV_FILE
+    labelEn: envfile
+    labelZh: 配置文件
+    required: true
+    type: text
+  - default: "./data"
+    edit: true
+    envKey: DATA_PATH
+    labelEn: Data Path
+    labelZh: 数据存储位置
+    required: true
+    type: text
+  - default: Asia/Shanghai
+    edit: true
+    envKey: TZ
+    labelEn: Time Zone
+    labelZh: 时区
+    required: true
+    type: text
