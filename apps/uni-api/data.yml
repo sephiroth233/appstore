@@ -1,0 +1,19 @@
+name: uni-api
+tags:
+    - AI
+title: OpenAI 接口管理 & 分发系统
+description: OpenAI 接口管理 & 分发系统
+additionalProperties:
+  key: uni-api
+  name: uni-api
+  tags:
+    - AI
+  shortDescZh: 这是一个统一管理大模型 API 的项目，可以通过一个统一的API 接口调用多种不同提供商的服务，统一转换为 OpenAI 格式，支持负载均衡
+  shortDescEn:  This is a project that unifies the management of large language model APIs, allowing you to call multiple backend services through a single unified API interface, converting them all to OpenAI format, and supporting load balancing
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://github.com/yym68686/uni-api
+  github: https://github.com/yym68686/uni-api
+  document: https://github.com/yym68686/uni-api/blob/main/README_CN.md
