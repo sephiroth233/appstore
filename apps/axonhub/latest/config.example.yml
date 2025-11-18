@@ -1,0 +1,103 @@
+# AxonHub 配置文件示例
+# 将此文件复制为 config.yml 并根据需要修改
+
+# 服务器配置
+server:
+  port: 8090                    # 服务器端口 (环境变量: AXONHUB_SERVER_PORT)
+  name: "AxonHub"               # 服务器名称 (环境变量: AXONHUB_SERVER_NAME)
+  base_path: ""                 # API 路由的基础路径 (环境变量: AXONHUB_SERVER_BASE_PATH)
+  request_timeout: "30s"        # 请求超时时间 (环境变量: AXONHUB_SERVER_REQUEST_TIMEOUT)
+  llm_request_timeout: "600s"   # LLM 请求超时时间 (环境变量: AXONHUB_SERVER_LLM_REQUEST_TIMEOUT)
+  trace:
+    thread_header: "AH-Thread-Id" # 线程 ID 请求头名称 (环境变量: AXONHUB_SERVER_TRACE_THREAD_HEADER)
+    trace_header: "AH-Trace-Id" # 追踪 ID 请求头名称 (环境变量: AXONHUB_SERVER_TRACE_TRACE_HEADER)
+    extra_trace_headers: [] # 额外的追踪请求头 (环境变量: AXONHUB_SERVER_TRACE_EXTRA_TRACE_HEADERS)
+    claude_code_trace_enabled: false # 启用从 Claude Code 请求元数据中提取追踪 ID (环境变量: AXONHUB_SERVER_TRACE_CLAUDE_CODE_TRACE_ENABLED)
+  debug: false                  # 启用调试模式 (环境变量: AXONHUB_SERVER_DEBUG)
+
+# 数据库配置
+db:
+  dialect: "sqlite3"            # 数据库类型: sqlite3, postgres, mysql (环境变量: AXONHUB_DB_DIALECT)
+  dsn: "file:axonhub.db?cache=shared&_fk=1"  # 数据库连接字符串 (环境变量: AXONHUB_DB_DSN)
+  debug: false                  # 启用数据库调试日志 (环境变量: AXONHUB_DB_DEBUG)
+
+# 缓存配置
+cache:
+  # 可选值: memory (内存), redis, two-level (内存 + redis 两级缓存)
+  mode: "memory"                # (环境变量: AXONHUB_CACHE_MODE)
+  
+  # 内存缓存配置
+  memory:
+    expiration: "5s"            # 内存缓存过期时间 (环境变量: AXONHUB_CACHE_MEMORY_EXPIRATION)
+    cleanup_interval: "10m"     # 内存缓存清理间隔 (环境变量: AXONHUB_CACHE_MEMORY_CLEANUP_INTERVAL)
+  
+  # Redis 缓存配置
+  redis:
+    addr: ""                    # 例如: 127.0.0.1:6379 (环境变量: AXONHUB_CACHE_REDIS_ADDR)
+    username: ""                # 可选 (环境变量: AXONHUB_CACHE_REDIS_USERNAME)
+    password: ""                # 可选 (环境变量: AXONHUB_CACHE_REDIS_PASSWORD)
+    db: 0                       # Redis 数据库索引 (环境变量: AXONHUB_CACHE_REDIS_DB)
+    expiration: "30m"           # Redis 缓存过期时间 (环境变量: AXONHUB_CACHE_REDIS_EXPIRATION)
+
+# 日志配置
+log:
+  name: "axonhub"               # 日志记录器名称 (环境变量: AXONHUB_LOG_NAME)
+  debug: false                  # 启用调试日志 (环境变量: AXONHUB_LOG_DEBUG)
+  level: "info"                 # 日志级别: debug, info, warn, error, panic, fatal (环境变量: AXONHUB_LOG_LEVEL)
+  level_key: "level"            # 日志级别字段的键名 (环境变量: AXONHUB_LOG_LEVEL_KEY)
+  time_key: "time"              # 时间戳字段的键名 (环境变量: AXONHUB_LOG_TIME_KEY)
+  caller_key: "label"           # 调用者信息字段的键名 (环境变量: AXONHUB_LOG_CALLER_KEY)
+  function_key: ""              # 函数字段的键名 (环境变量: AXONHUB_LOG_FUNCTION_KEY)
+  name_key: "logger"            # 日志记录器名称字段的键名 (环境变量: AXONHUB_LOG_NAME_KEY)
+  encoding: "json"              # 日志编码格式: json, console, console_json (环境变量: AXONHUB_LOG_ENCODING)
+  includes: []                  # 要包含的日志记录器名称 (环境变量: AXONHUB_LOG_INCLUDES)
+  excludes: []                  # 要排除的日志记录器名称 (环境变量: AXONHUB_LOG_EXCLUDES)
+  output: "stdio"               # 输出目标: file 或 stdio (环境变量: AXONHUB_LOG_OUTPUT)
+  file:                        # 基于文件的日志配置 (环境变量前缀: AXONHUB_LOG_FILE_*)
+    path: "logs/axonhub.log"   # 日志文件路径 (环境变量: AXONHUB_LOG_FILE_PATH)
+    max_size: 100              # 轮转前的最大文件大小(MB) (环境变量: AXONHUB_LOG_FILE_MAX_SIZE)
+    max_age: 30                # 保留的最大天数 (环境变量: AXONHUB_LOG_FILE_MAX_AGE)
+    max_backups: 10            # 保留的旧日志文件最大数量 (环境变量: AXONHUB_LOG_FILE_MAX_BACKUPS)
+    local_time: true           # 轮转文件使用本地时间 (环境变量: AXONHUB_LOG_FILE_LOCAL_TIME)
+
+# 指标配置
+metrics:
+  enabled: false                 # 启用指标收集 (环境变量: AXONHUB_METRICS_ENABLED)
+  exporter: 
+    type: "oltphttp"          # 指标导出器类型: prometheus, console (环境变量: AXONHUB_METRICS_EXPORTER_TYPE)
+    endpoint: "localhost:8080" # 指标导出器端点 (环境变量: AXONHUB_METRICS_EXPORTER_ENDPOINT)
+    insecure: true             # 启用非安全连接 (环境变量: AXONHUB_METRICS_EXPORTER_INSECURE)
+    
+
+# 转储配置
+dumper:
+  enabled: false                 # 启用错误时的数据转储 (环境变量: AXONHUB_DUMPER_ENABLED)
+  dump_path: "./dumps"           # 转储数据的目录 (环境变量: AXONHUB_DUMPER_DUMP_PATH)
+  max_size: 100                  # 转储文件的最大大小(MB) (环境变量: AXONHUB_DUMPER_MAX_SIZE)
+  max_age: "24h"                 # 保留转储文件的最大时长 (环境变量: AXONHUB_DUMPER_MAX_AGE)
+  max_backups: 10                # 保留的旧转储文件最大数量 (环境变量: AXONHUB_DUMPER_MAX_BACKUPS)
+
+# 垃圾回收配置
+gc:
+  cron: "0 2 * * *"              # GC 执行的 Cron 表达式 (环境变量: AXONHUB_GC_CRON)
+                                 # 此示例为每天凌晨 2:00 执行
+                                 # 格式: 分钟 小时 日期 月份 星期
+                                 # 示例:
+                                 # "0 2 * * *"     - 每天凌晨 2:00
+                                 # "0 3 * * 0"     - 每周日凌晨 3:00
+                                 # "0 4 1 * *"     - 每月 1 号凌晨 4:00
+
+# 环境变量示例:
+# export AXONHUB_SERVER_PORT=8080
+# export AXONHUB_DB_DSN="postgres://user:pass@localhost/axonhub?sslmode=disable"
+# export AXONHUB_LOG_LEVEL="debug"
+# export AXONHUB_LOG_ENCODING="console"
+# export AXONHUB_LOG_OUTPUT="stdio"  # 或 "file"
+# export AXONHUB_LOG_FILE_PATH="/var/log/axonhub/axonhub.log"
+# export AXONHUB_LOG_FILE_MAX_SIZE=200
+# export AXONHUB_LOG_FILE_MAX_AGE=14
+# export AXONHUB_LOG_FILE_MAX_BACKUPS=7
+# export AXONHUB_SERVER_TRACE_HEADER="X-Trace-ID"
+# export AXONHUB_METRICS_ENABLED=false
+# export AXONHUB_GC_CRON="0 3 * * 0"  # 每周日凌晨 3:00 执行
+

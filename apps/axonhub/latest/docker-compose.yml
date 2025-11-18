@@ -1,0 +1,20 @@
+services:
+  axonhub:
+    image: looplj/axonhub:latest
+    container_name: ${CONTAINER_NAME}
+    user: "0:0"
+    restart: always
+    ports:
+      - ${PANEL_APP_PORT_HTTP}:8090
+    env_file:
+      - ${ENV_FILE}
+    volumes:
+      - ${DATA_PATH}/data:/app/data
+      - ${DATA_PATH}/logs:/app/logs
+    labels:
+      createdBy: "Apps"
+    networks:
+      - 1panel-network  
+networks:
+  1panel-network:
+    external: true
