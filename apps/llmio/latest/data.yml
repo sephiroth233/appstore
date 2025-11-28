@@ -1,0 +1,26 @@
+additionalProperties:
+  formFields:
+  - default: 7070
+    edit: true
+    envKey: PANEL_APP_PORT_HTTP
+    labelEn: Port
+    labelZh: 端口
+    required: true
+    rule: paramPort
+    type: number
+  - default: ""
+    edit: true
+    envKey: TOKEN
+    labelEn: token
+    labelZh: 登录 token
+    required: true
+    rule: paramComplexity
+    type: password
+    random: true
+  - default: "./data"
+    edit: true
+    envKey: DATA_PATH
+    labelEn: Data Path
+    labelZh: 数据存储位置
+    required: true
+    type: text

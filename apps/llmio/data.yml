@@ -1,0 +1,19 @@
+name: llmio
+tags:
+    - AI
+title: LLMIO 是一个基于 Go 的多供应商大语言模型网关
+description: LLMIO 是一个基于 Go 的多供应商大语言模型网关，提供统一的 REST API、权重调度与现代化管理界面，帮助你在一个服务中整合 OpenAI、Anthropic 等不同模型能力。
+additionalProperties:
+  key: llmio
+  name: llmio
+  tags:
+    - AI
+  shortDescZh: LLMIO 是一个基于 Go 的多供应商大语言模型网关，提供统一的 REST API、权重调度与现代化管理界面，帮助你在一个服务中整合 OpenAI、Anthropic 等不同模型能力。
+  shortDescEn: LLMIO is a multi-supplier large language model gateway based on Go, providing unified REST API, weight scheduling, and modern management interface to help you integrate different model capabilities such as OpenAI and Anthropic in one service.
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://github.com/atopos31/llmio
+  github: https://github.com/atopos31/llmio
+  document: https://raw.githubusercontent.com/atopos31/llmio/refs/heads/master/README.md

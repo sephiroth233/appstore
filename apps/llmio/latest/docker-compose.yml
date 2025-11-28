@@ -1,0 +1,20 @@
+services:
+  llmio:
+    image: atopos31/llmio:latest
+    container_name: ${CONTAINER_NAME}
+    restart: always
+    ports:
+      - ${PANEL_APP_PORT_HTTP}:7070
+    environment:
+      - GIN_MODE=release
+      - TOKEN=${TOKEN}
+      - TZ=${TZ}
+    volumes:
+      - ${DATA_PATH}/db:/app/db
+    labels:
+      createdBy: "Apps"
+    networks:
+      - 1panel-network  
+networks:
+  1panel-network:
+    external: true

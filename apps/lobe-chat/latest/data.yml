@@ -22,7 +22,7 @@ additionalProperties:
       labelZh: OpenAI 代理 URL
       required: false
       type: text
-    - default: ""
+    - default: "llmio"
       edit: true
       envKey: ACCESS_CODE
       labelEn: Access Code
